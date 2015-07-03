@@ -1,7 +1,7 @@
 ﻿/// -----------------------------------------------------------------------------------------------------------
 ///										SERVIDOR DE CHAT WEBAULA
 /// -----------------------------------------------------------------------------------------------------------
-var port			  = 5000;											// Porta do servidor
+var port			  = process.env.PORT || 3000;											// Porta do servidor
 var express			  = require('express');								// Instancia do framework Express
 var app				  = express();										// Inicialização do framework
 var http			  = require('http').createServer(app);				// Instancia do protocolo HTTP
