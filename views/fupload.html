@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+	<script src="/javascript/socketio/socket.io-1.3.5.js"></script>
+	<script src="/javascript/siofu/client.js"></script>
+</head>
+<body>
+	<input type="file" id="siofu_input" />
+	<script>
+		var myArrayUser = { userid: Math.floor(Math.random() * 10000000000000001), username: 'Walter', password: "ABC", rooms: 'A', urlAvatar: '' };
+		var socket = io('http://wabhzpc093:8090/');
+		socket.on('connect', function () {
+			//var arrUser = GetUserInfo();
+			socket.emit('authentication', myArrayUser);
+			socket.on('authenticated', function (data) {
+				alert("autenticated");
+			});
+		});
+		var uploader = new SocketIOFileUpload(socket);
+		uploader.listenOnInput(document.getElementById("siofu_input"));
+	</script>
+</body>
+</html>

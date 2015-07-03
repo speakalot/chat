@@ -1,0 +1,81 @@
+﻿span.info {
+	width: 100%;
+	display: block;
+}
+.alignRight {
+	text-align: right;
+}
+
+.highlight {
+	display: block;
+	height: 20px;
+	min-width: 350px;
+	color: #FFF;
+	font-weight: bold;
+	font-family:Tahoma;
+	font-size:11px;
+	border-radius:4px 4px 4px 4px;
+	-moz-border-radius:4px 4px 4px 4px;
+	-webkit-border-radius:4px 4px 4px 4px;
+	padding:3px;
+	padding-right:10px;
+	vertical-align:middle;
+	line-height:20px;
+}
+
+body {
+	margin: 0px;
+	padding: 5px;
+	font-family: Tahoma;
+	font-size:12px;
+	text-rendering: optimizeLegibility;
+}
+
+.panelMsg {
+	color: #2EC029;
+	font-size: 11px;
+	line-height: 12px;
+	font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
+	background: #000;
+	background-color: #000;
+	width: 99%;
+	height: 200px;
+	margin-top: 10px;
+	overflow: auto;
+	overflow-x: hidden;
+	overflow-y: visible;
+	-moz-appearance: textfield-multiline;
+	-webkit-appearance: textarea;
+	border: 1px solid gray;
+	padding: 2px;
+	resize: none;
+}
+
+.diconnect {
+	color: #f00;
+}
+
+.whiteC {
+	color: #FFF;
+}
+
+.grayC {
+	color: #1d1d1d;
+}
+
+.gray{
+	background-color:#0d0a3e;
+}
+
+.ui-progressbar {
+	position: relative;
+	margin-top: 10px;
+}
+
+.progress-label {
+	position: absolute;
+	left: 50%;
+	top: 4px;
+	font-weight: bold;
+	text-shadow: 1px 1px 0 #fff;
+}

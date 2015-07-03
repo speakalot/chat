@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ProfilingTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StandaloneTarget>
+    <InterpreterPath>C:\Program Files\nodejs\node.exe</InterpreterPath>
+    <WorkingDirectory>E:\waChat\waChat2\</WorkingDirectory>
+    <Script>server.js</Script>
+    <Arguments>--expose-gc</Arguments>
+  </StandaloneTarget>
+  <Reports>
+    <Report>
+      <Filename>C:\Users\walter\AppData\Local\Temp\Performance_20150701(1).vspx</Filename>
+    </Report>
+    <Report>
+      <Filename>C:\Users\walter\AppData\Local\Temp\Performance_20150701(2).vspx</Filename>
+    </Report>
+  </Reports>
+</ProfilingTarget>

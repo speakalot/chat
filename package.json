@@ -1,0 +1,18 @@
+{
+  "name": "waChat",
+  "version": "0.0.0",
+  "description": "waChat",
+  "main": "server.js",
+  "author": {
+    "name": "walter.silva",
+    "email": "walter.silva@webaula.com.br"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "express": "^4.13.0",
+    "peer": "^0.2.8",
+    "socket.io": "^1.3.5",
+    "socket.io-stream": "^0.8.0",
+    "socketio-auth": "0.0.3"
+  }
+}
