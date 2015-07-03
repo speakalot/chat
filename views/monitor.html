@@ -76,8 +76,7 @@
 	<script>
 		$(function () {
 			var div = document.getElementById('panelTextLogger');
-			//var socket = io('//desenvolvimentoportaldoaluno.webaula.com.br:8090');
-			var socket = io('//young-springs-3257.herokuapp.com/');
+			var socket = io('//speakalot.herokuapp.com/');
 			socket.on('connect', function () {
 				socket.emit('authentication', { password: 'ABC' });
 				socket.emit("admLogin", { login: 'admwebaula', pass: 'wachatadmin' });
