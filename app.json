@@ -1,0 +1,7 @@
+{
+  "name":"chat",
+  "description":"node js chat",
+  "scripts":{},
+  "env":{},
+  "addons":[]
+}
